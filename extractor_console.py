@@ -245,11 +245,11 @@ def main():
 
     def print_device_info(device):
         """Prints detailed information about a single device."""
-        print_tabbed("---------", 3)
+        print_tabbed("╔"+"═" * 50 + "╗", 3)
         for key, value in device.items():
             if key in ["name", "did", "mac", "localip", "token", "model"]:
-                print_entry(key.upper(), value, 3)
-        print_tabbed("---------", 3)
+                print_entry("  " + key.upper(), value[:40], 3)
+        print_tabbed("╚" + "═" * 50 + "╝", 3)
 
     def process_home(home, current_server, connector):
         """Processes a single home and prints its devices."""
