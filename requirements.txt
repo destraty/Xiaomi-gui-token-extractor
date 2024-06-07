@@ -1,3 +1,4 @@
-requests
-pycryptodome
-charset-normalizer
+pycryptodome~=3.20.0
+charset-normalizer~=3.3.2
+requests~=2.32.3
+sv_ttk~=2.6.0
