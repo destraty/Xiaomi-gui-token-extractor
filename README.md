@@ -1,4 +1,5 @@
 # Xiaomi-gui-token-extractor
+![Logo](https://github.com/destraty/Xiaomi-gui-token-extractor/blob/master/assets/gui.png?raw=true)
 
 This program allows you, without changing the temperature, to automatically receive all tokens for all Xiaomi WIFI devices and all encryption keys for BLE devices in one click. 
 
